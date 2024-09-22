@@ -1,7 +1,7 @@
 // let x:number=23
 // console.log(x)
 
-import { setTimeout } from "timers/promises"
+// import { setTimeout } from "timers/promises"
 
 
 // function greetuser(firstname:string, lastname:string,age:number){
