@@ -45,6 +45,62 @@
 // });
 
 
-const greet=(name)=>console.log("hello");
+// function shubham(fn:()=>void){
+//     setTimeout(fn,1000)
+// }
+// const sher:()=>void=()=>{
+//     console.log("hey");
+//     return 5;
+// }
+// shubham(sher)
 
+
+// ----interface---- It provides a way to define the structure of data in a clear and concise manner, enabling type safety and consistency throughout the code."
+
+
+
+// interface user{
+//     firstname:string,
+//     lastname:string,
+//     age:number
+//     email?:string //optional 
+// }
+
+// function islegal(user:user){
+//     if (user.age>18) {
+//         console.log("legal");
+        
+//     } else {
+//         console.log("illegal");
+        
+//     }
+// }
+
+// islegal({
+//     firstname:"shubham",
+//     lastname:"varsheny",
+//     age:19
+// })
+
+// TYPES--- almost same as interface but types cannot use as impliment classes but interface does but types let you do few extra things
+
+type users={
+    firstname:string,
+    lastname:string,
+    age:number
+}
+function islegal(users:users){
+    if (users.age>20) {
+        console.log("yes");
+        
+    } else {
+        console.log('no');
+        
+    }
+}
+islegal({
+    firstname:"aditya",
+    lastname:"varshney",
+    age:22
+})
 

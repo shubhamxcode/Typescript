@@ -3,5 +3,4 @@
 // mkdir src for make src folder
 // node dist/01intro to run specific file in dist
 // vi .gitignore is to ignore join.s file to push in to github
-// noImplicitAny:false ------- strigness control ----in typechecking
-// removecomment  in -outdir
+// noImplicitAny:false ------- strigness control
