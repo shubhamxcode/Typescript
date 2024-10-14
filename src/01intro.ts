@@ -84,23 +84,58 @@
 
 // TYPES--- almost same as interface but types cannot use as impliment classes but interface does but types let you do few extra things
 
-type users={
-    firstname:string,
-    lastname:string,
-    age:number
-}
-function islegal(users:users){
-    if (users.age>20) {
-        console.log("yes");
+// type users={
+//     firstname:string,
+//     lastname:string,
+//     age:number
+// }
+// function islegal(users:users){
+//     if (users.age>20) {
+//         console.log("yes");
         
-    } else {
-        console.log('no');
+//     } else {
+//         console.log('no');
         
-    }
+//     }
+// }
+// islegal({
+//     firstname:"aditya",
+//     lastname:"varshney",
+//     age:22
+// })
+
+// mutiple data type using type provide  (UNION) 
+// type greetuser=number|string
+
+// const greet=(greet:greetuser)=>{
+    
+// }
+
+// greet(1)
+// greet("shubham")
+
+//intersection ------part of type
+
+
+type employe={
+    name:string,
+    startDate:Date;
 }
-islegal({
-    firstname:"aditya",
-    lastname:"varshney",
-    age:22
-})
+
+interface manager{
+    name:string,
+    department:string;
+}
+
+type Teachlead=employe & manager
+
+
+const shubham:Teachlead={
+     name:"shubham",
+     startDate: new Date(),
+     department:"huehue"
+}
+console.log(shubham);
+
+// interface you can use in extend a  class and type provide few fetures method like union and intersection we cannot use intterface when we use & or |
 
