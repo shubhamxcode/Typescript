@@ -16,8 +16,11 @@
 // }
 // let Output=getitem(["shubham"])
 // console.log(Output.toUpperCase());
-const inter = (anything) => {
-    return anything[0];
-};
-const el = inter([{ name: "shubham" }]);
-console.log(el.name);
+// const inter=<T>(anything:T[])=>{
+//     return anything[0];
+// }
+// interface anythinganywherestrore{
+//     name:string
+// }
+// const el=<anythinganywherestrore>inter([{name:"shubham"}])
+// console.log(el.name);
