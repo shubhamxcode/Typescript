@@ -117,25 +117,25 @@
 //intersection ------part of type
 
 
-type employe={
-    name:string,
-    startDate:Date;
-}
+// type employe={
+//     name:string,
+//     startDate:Date;
+// }
 
-interface manager{
-    name:string,
-    department:string;
-}
+// interface manager{
+//     name:string,
+//     department:string;
+// }
 
-type Teachlead=employe & manager
+// type Teachlead=employe & manager
 
 
-const shubham:Teachlead={
-     name:"shubham",
-     startDate: new Date(),
-     department:"huehue"
-}
-console.log(shubham);
+// const shubham:Teachlead={
+//      name:"shubham",
+//      startDate: new Date(),
+//      department:"huehue"
+// }
+// console.log(shubham);
 
 // interface you can use in extend a  class and type provide few fetures method like union and intersection we cannot use intterface when we use & or |
 
