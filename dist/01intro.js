@@ -100,3 +100,43 @@
 // }
 // console.log(shubham);
 // interface you can use in extend a  class and type provide few fetures method like union and intersection we cannot use intterface when we use & or |
+// const x:number=23;
+// console.log(x);
+// const greet=function (firstname:string){
+//     console.log("Hello world",firstname)
+// }
+// greet("shubham")
+// function isvaliduser(user:number):boolean{
+//     if (user>=18) {
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+// const userage=isvaliduser(18)
+// console.log(userage);
+// function greeuserwiththerename(sherathesikar:()=>void){
+//   setTimeout(sherathesikar,2000)
+// }
+// greeuserwiththerename(()=>{
+//     console.log("hello shubham")
+// })
+// interface User{
+//     age:number
+// }
+// function islegaluser(user:User){
+//     if (user.age>18) {
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+// console.log(islegaluser({
+//     age:23
+// }));
+// type userid={
+//     id:number | string
+// }
+// function useriddata(user:userid){
+// }
+// useriddata({id:23})

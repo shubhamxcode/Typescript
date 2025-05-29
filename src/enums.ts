@@ -1,21 +1,22 @@
-// enum direaction{
-//     enter="enter",
-//     down="down",
-//     left="left",
-//     right="right"
-// }
+enum direaction{
+    backsapce="backsapce",
+    down="down",
+    left="left",
+    right="right"
+}
 
-// function shubham(userclick:direaction){
-//     if (userclick===direaction.enter && direaction.down&&direaction.left&&direaction.right) {
-//         console.log("hey shubham you click")
-//     }
-//     else{
-//         console.log("oops you click other key")
-//     }
-// }
-// console.log(direaction);
-
-// shubham(direaction.enter)
+function shubham(userclick:direaction){
+    if (userclick===direaction.backsapce && direaction.down&&direaction.left&&direaction.right) {
+        console.log(`hey shubham you click ${userclick}`)
+    }
+    else{
+        console.log("oops you click other key")
+    }
+}
+shubham(direaction.backsapce)
+shubham(direaction.down)
+shubham(direaction.left)
+shubham(direaction.right)
 
 // const app=express();
 // enum ResponseStatus {
